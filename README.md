@@ -16,7 +16,7 @@ to 120 characters or less. This program demonstrates a simple proof-of-concept
 that its possible to leverage sockets and some basic threading/multiprocessing
 to build a basic AIM-style chat client.
 
-![Preview of Running Application](python-chat.gif)
+![Preview of Running Application](chat-recording.gif)
 
 
 # Running
