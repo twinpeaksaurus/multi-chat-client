@@ -91,10 +91,9 @@ to particpate in a chat session. See the code for comments and more details
 on the functions contained within.
 
 
-# Sources
+# Resources if you would like to learn more
 
-I am listing these sources here because they were all consulted through out the
-evolution of the project.
+I referenced the resources below to create this project. If you are interested in learning more about sockets, threads in Python, curses, or select, check them out!
 
 Python Socket Library:
 
