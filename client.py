@@ -2,7 +2,6 @@
 # Description: Asks the user for their name, then establishes a socket with
 # the server, once attatched, it opens the GUI and terminal.py takes over
 # from there.
-# Sources: See README.md
 
 import socket, os, terminal
 

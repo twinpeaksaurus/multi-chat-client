@@ -1,6 +1,6 @@
 # Description: Used to spin up the server process and when run as script, will
 # also start a client on the server machine
-# Sources: See README.md
+
 
 import socket, select, time, sys
 from threading import Thread

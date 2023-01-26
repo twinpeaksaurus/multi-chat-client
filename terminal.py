@@ -1,6 +1,5 @@
 # Description: Used for flow control of the client application, process forking
 # and GUI presentation.
-# Sources: See README.md
 
 import os, socket, curses
 from multiprocessing import Process
