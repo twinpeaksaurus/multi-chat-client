@@ -2,19 +2,18 @@
 
 # Overview
 
-This project, is a multi-party client/server based chat. The server runs on one
-machine and many clients can connect to it. The server will also spawn a client
-instance so that the person who hosts the server, can participate in chat as
-well.
+This is a multi-party client/server based chat. The server runs on one
+machine, and many clients can connect to it. The server will also spawn a client
+instance so that the person who hosts the server can participate in the chat.
 
-The program leverages: the curses library for a better than plain old CLI GUI,
-threading, select for I/O multiplexing,  multiprocessing and of course sockets.
+The program leverages the curses library for a better than plain old CLI GUI,
+threading, select for I/O multiplexing, multiprocessing, and of course, sockets.
 
-The client will show the current username at the top of the screen, and
-colorizes each unique user name in the chat panel. Input is currently limited
-to 120 characters or less. This program demonstrates a simple proof-of-concept
-that its possible to leverage sockets and some basic threading/multiprocessing
-to build a basic AIM-style chat client.
+The client will show the current username at the top of the screen and
+colorize each unique user name in the chat panel. Input is currently limited
+to 120 characters or less per message. 
+
+This program demonstrates a simple proof-of-concept that its possible to leverage sockets and some basic threading/multiprocessing to build a basic AIM-style chat client.
 
 ![Preview of Running Application](chat-recording.gif)
 
